@@ -2,7 +2,7 @@
 
 This repository contains the R implementations referring to the paper "A new regression model for the COVID-19 mortality rate in the U.S. States", by including the implementation of the introduced new unit regression model: Reflexive unit Burr XII (RUBXII) (RIBEIRO, CORDEIRO, PEÑA-RAMÍREZ AND GUERRA, 2020).
 
-To select an of the implemented unit regression models, please open the file "SubSEC42-FittedUnitRegs.R" and in the UnitReg.fit function uses one of the following arguments: RUBXII, Kw, UW, BETA, or SIMPLEX.
+To fit any of the implemented unit regression models, please open the file "SubSEC42-FittedUnitRegs.R" and in the UnitReg.fit function uses one of the following regression arguments: RUBXII, Kw, UW, BETA, or SIMPLEX.
 
 If you have any problem, please contact Tatiane F. Ribeiro (tfr1@de.ufpe.br).
 
