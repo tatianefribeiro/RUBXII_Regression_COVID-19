@@ -73,7 +73,6 @@ for (n in vn) {##Loop for sample size
   yr <- r_RUBXII(n) #It use previous q_i (i.e., beta1 and beta2)
   #and c defined in the start.
   
-  #!!!!!!!! GAMBIARRA.
   for (j in 1:length(yr)) {
     if(yr[j] == 1) {yr[j] <- 0.9999}
   }
